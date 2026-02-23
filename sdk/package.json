@@ -1,0 +1,17 @@
+{
+  "name": "loglens-sdk",
+  "version": "1.0.0",
+  "description": "Official SDK for LogLens — AI-powered log analysis",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["logging", "log-analysis", "ai", "monitoring", "loglens"],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
